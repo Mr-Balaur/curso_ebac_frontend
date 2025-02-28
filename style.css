@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: #182685;
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header li{
+    display: inline;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+
+}
+
+header li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.articles article img{
+    height: 200px;
+}
+
+.articles article{
+    width: 30%;
+}
+
+section, section h2, .articles article{
+    padding: 50px 0px 0px 0px;
+}
+
+section{
+    padding-bottom: 15%;
+}
+
+.articles article h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.articles article a{
+    padding: 5px 5px;
+    display: inline-block;
+    font-weight:600;
+    text-decoration: none;
+    font-family: Helvetica;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p{
+    font-family: Helvetica;
+}
+
+section h2{
+    font-family: Impact;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.articles article h3{
+    font-family: Impact;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#science{
+    background-color: rgba(0, 100, 0, 60);
+    color: whitesmoke;
+
+}
+
+#science .articles article a{
+    background-color: yellow;
+    color: rgba(0, 100, 0, 60);
+}
+
+#cinema{
+    background-color: rgb(227, 149, 3);
+    color:rgb(85, 0, 164);
+}
+
+#cinema .articles article a{
+    background-color: rgb(85, 0, 164);
+    color: rgb(227, 149, 3);
+}
+
+#economy{
+    background-color: whitesmoke;
+    color: #182685;
+}
+
+#economy .articles article a{
+    background-color: #182685;
+    color: whitesmoke;
+}
+
+#sports{
+    background-color: rgb(212, 2, 2);
+    color: whitesmoke;
+}
+
+#sports .articles article a{
+    background-color: whitesmoke;
+    color: rgb(212, 2, 2);
+}
+
+#policy{
+    background-color: wheat;
+    color: rgb(136, 49, 49);
+}
+
+#policy .articles article a{
+    background-color: rgb(136, 49, 49);
+    color: wheat;
+}
+
+#recipes{
+    background-color: chocolate;
+    color:rgb(254, 232, 205);
+}
+
+#recipes .articles article a{
+    background-color: rgb(254, 232, 205);
+    color: chocolate;
+}
+
+#tech{
+    background-color: yellow;
+}
+
+#tech .articles article a{
+    background-color: black;
+    color: yellow;
+}
