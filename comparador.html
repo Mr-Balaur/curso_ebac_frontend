@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Comparador</title>
+</head>
+<body>
+<div class="container">
+    <h1>Insira dois valores nos campos abaixo:</h1>
+    <form id="comparador">
+        <input type="number" id="valorA" required placeholder="Valor A"/>
+        <input type="number" id="valorB" required placeholder="Valor B"/>
+        <button type="submit">Enviar</button>
+    </form>   
+    <p class="success-message">Tudo certo! O valor B é maior que o valor A.</p>
+    <p class="error-message">Opa! Infelizmente o valor B é menor ou igual ao valor A.</p> 
+</div>
+<script src="valida.js"></script>    
+</body>
+</html>
