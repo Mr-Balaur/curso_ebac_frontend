@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa';
+    background-color: #232946;
+
+}
+
+header{
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #232946;
+    padding: 16px 0;
+    font-weight: bolder;
+    color: #eebbc3;
+    display: flex;
+    justify-content: center;
+}
+
+header button{
+    margin-left: 16px;
+    padding: 0 14px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #eebbc3;
+    color: #271c19;
+}
+
+form{
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+form h2{
+    margin-bottom: 16px;
+    color: #eebbc3;
+}
+input{
+    background-color: #fff;
+}
+input, button{
+    padding: 8px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #eebbc3;
+    border: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #271c19;
+    cursor: pointer;
+}
+
+
+ul{
+    max-width: 400px;
+    margin: 0 auto;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+li{
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    color: #eebbc3;
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+    color: #eebbc3;
+}
